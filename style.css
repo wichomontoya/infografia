@@ -1,0 +1,217 @@
+/*cabezas de flechas arriba--------------------------*/
+.arrow-up{
+	height: 60px;
+	width: 0px;
+	/*background-color: transparent;*/
+	/*border-top: 40px solid red;*/
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid purple;
+	border-left: 40px solid transparent;
+	position: fixed;
+	left:500px;
+	top: 50px;
+}
+/*cuerpo de flechas arriba--------------------------*/
+.arrow-body-up{
+	height: 80px;
+	width: 30px;
+	background-color: purple;
+	position: fixed;
+	left: 525px;
+	top:170px;
+	}
+/*cabezas de flechas derecha--------------------------*/
+.arrow-right{
+	height: 0px;
+	width: 60px;
+	/*background-color: transparent;*/
+	border-top: 40px solid transparent;
+	/*border-right: 40px solid transparent;*/
+	border-bottom: 40px solid transparent;
+	border-left: 60px solid purple;
+	position: fixed;
+	left:900px;
+	top: 400px;
+}
+/*cuerpo de flechas derecha--------------------------*/
+.arrow-body-right{
+	height: 30px;
+	width: 80px;
+	background-color: purple;
+	position: fixed;
+	left: 820px;
+	top:425px;
+	}
+/*cabezas de flechas izquierda--------------------------*/
+.arrow-left{
+	height: 0px;
+	width: 60px;
+	/*background-color: transparent;*/
+	border-top: 40px solid transparent;
+	border-right: 60px solid purple;
+	border-bottom: 40px solid transparent;
+	/*border-left: 40px solid transparent;*/
+	position: fixed;
+	left:100px;
+	top: 400px;
+}
+/*cuerpo de flechas izquierda--------------------------*/
+.arrow-body-left{
+	height: 30px;
+	width: 80px;
+	background-color: purple;
+	position: fixed;
+	left: 220px;
+	top:425px;
+	}
+	/*cabezas de flechas abajo--------------------------*/
+.arrow-down{
+	height: 60px;
+	width: 0px;
+	/*background-color: transparent;*/
+	border-top: 60px solid purple;
+	border-right: 40px solid transparent;
+	/*border-bottom: 40px solid purple;*/
+	border-left: 40px solid transparent;
+	position: fixed;
+	left:500px;
+	top: 700px;
+}
+/*cuerpo de flechas abajo--------------------------*/
+.arrow-body-down{
+	height: 80px;
+	width: 30px;
+	background-color: purple;
+	position: fixed;
+	left: 525px;
+	top:625px;
+	}
+/*trapecio--------------------------*/
+.trapecio{
+	height: 0px;
+	width: 200px;
+	/*background-color: transparent;*/
+	/*border-top: 60px solid purple;*/
+	border-right: 40px solid transparent;
+	border-bottom: 100px solid black;
+	border-left: 40px solid transparent;
+	position: fixed;
+	left:400px;
+	top: 400px;
+}
+/*-----------------------------------------------diagonal 1*/
+#arrow1 {
+    position: relative;
+    right: 0px;
+    left: 400px;
+    top: 20px;
+    bottom: 0px;
+    -webkit-transform: rotate(45deg);
+}
+.arrow1{
+	height: 60px;
+	width: 0px;
+	/*background-color: transparent;*/
+	/*border-top: 40px solid red;*/
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid green;
+	border-left: 40px solid transparent;
+	position: fixed;
+	left:500px;
+	top: 50px;
+}
+.arrow-body-1{
+	height: 80px;
+	width: 30px;
+	background-color: green;
+	position: fixed;
+	left: 525px;
+	top:170px;
+	}
+/*-----------------------------------------------diagonal 2*/
+#arrow2 {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 580px;
+    top: 700px;
+    -webkit-transform: rotate(135deg);
+}
+.arrow2{
+	height: 60px;
+	width: 0px;
+	/*background-color: transparent;*/
+	/*border-top: 40px solid red;*/
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid green;
+	border-left: 40px solid transparent;
+	position: fixed;
+	left:500px;
+	top: 50px;
+}
+.arrow-body-2{
+	height: 80px;
+	width: 30px;
+	background-color: green;
+	position: fixed;
+	left: 525px;
+	top:170px;
+	}
+/*-----------------------------------------------diagonal 3*/
+#arrow3 {
+    position: fixed;
+    left: 0px;
+    bottom: -100px;
+    right: -150px;
+    top: 0px;
+    -webkit-transform: rotate(-135deg);
+}
+.arrow3{
+	height: 60px;
+	width: 0px;
+	/*background-color: transparent;*/
+	/*border-top: 40px solid red;*/
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid green;
+	border-left: 40px solid transparent;
+	position: fixed;
+	left:500px;
+	top: 50px;
+}
+.arrow-body-3{
+	height: 80px;
+	width: 30px;
+	background-color: green;
+	position: fixed;
+	left: 525px;
+	top:170px;
+	}
+/*-----------------------------------------------diagonal 4*/
+#arrow4 {
+    position: fixed;
+    left: -100px;
+    top: 50px;
+    bottom: 0px;
+    right: 0px;
+    -webkit-transform: rotate(-45deg);
+}
+.arrow4{
+	height: 60px;
+	width: 0px;
+	/*background-color: transparent;*/
+	/*border-top: 40px solid red;*/
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid green;
+	border-left: 40px solid transparent;
+	position: fixed;
+	left:500px;
+	top: 50px;
+}
+.arrow-body-4{
+	height: 80px;
+	width: 30px;
+	background-color: green;
+	position: fixed;
+	left: 525px;
+	top:170px;
+	}
